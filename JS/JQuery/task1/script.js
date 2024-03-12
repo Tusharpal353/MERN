@@ -1,3 +1,4 @@
+//CHECK BOX SUBMIT BUTTON
 $(document).ready(function () {
   var value0 = $("#box");
   // var value1 = $("#box").val();

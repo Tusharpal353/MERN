@@ -1,0 +1,13 @@
+.page-header {
+    font-size: 64px;
+    color: blue;
+}
+
+.hint {
+    font-size: 32px;
+    color: green;
+}
+
+.highlight {
+    background-color: pink;
+}

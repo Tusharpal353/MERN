@@ -1,0 +1,21 @@
+.foodbanner {
+    background-image: linear-gradient(rgba(15, 23, 43, .9), rgba(14, 23, 43, .9)), url(../images/delicious-food-black-board.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+:root {
+    --primary: orange;
+    --light: white;
+}
+
+.btn-primary {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--light);
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
