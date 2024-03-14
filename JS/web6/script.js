@@ -30,9 +30,20 @@ console.log("Broken broken"); */
 
 //functions
 //always rember to invoke function
-function aa(fullname) {
-  console.log(`${fullname}`);
-}
-aa("Tushar");
+
+// function aa(fullname) {
+//   console.log(`${fullname}`);
+// }
+// aa("Tushar");
 
 //
+
+one();
+function one() {
+  console.log("hello");
+}
+
+two("hello");
+const two = (fullname) => {
+  console.log(fullname);
+};
