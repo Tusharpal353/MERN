@@ -20,6 +20,8 @@ This repository serves as a comprehensive collection of code implementations and
 
 Feel free to explore the contents of this repository and engage with the code and learning materials provided. Whether you're a fellow enthusiast, a prospective collaborator, or someone embarking on your own learning journey, we invite you to leverage this repository as a valuable resource for inspiration, education, and growth.
 
+# All the notes are in MASTER BRANCH
+
 ## Contributions
 
 Contributions to this repository are welcome! If you have suggestions for improvements, bug fixes, or new projects to add, please feel free to submit a pull request. Together, let's continue to build and expand this repository as a vibrant hub of knowledge and creativity.
