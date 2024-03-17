@@ -104,3 +104,24 @@
 .btn {
     border-color: orange;
 }
+
+
+
+/* FORM */
+.form1 {
+    border: solid 2px red;
+}
+
+.scroll-img {
+
+    background-image: url("/Project/images/1236.jpg");
+    background-repeat: ;
+    background-attachment: fixed;
+}
+
+.imgchief {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    width: auto;
+}
