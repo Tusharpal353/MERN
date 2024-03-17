@@ -12,7 +12,7 @@ This repository serves as a comprehensive collection of code implementations and
 
 - **Code Implementations**: Explore a diverse array of projects spanning various programming languages, frameworks, and concepts. From foundational algorithms to advanced applications, each project is crafted with care to showcase proficiency, creativity, and problem-solving skills.
 
-- **Learning Materials**: Delve into a curated selection of notes, tutorials, and resources covering topics encountered during [Your Name]'s learning journey at TechLive. From fundamental principles to cutting-edge technologies, these materials provide valuable insights and guidance for enthusiasts and learners alike.
+- **Learning Materials**: Delve into a curated selection of notes, tutorials, and resources covering topics encountered during my learning journey at TechLive. From fundamental principles to cutting-edge technologies, these materials provide valuable insights and guidance for enthusiasts and learners alike.
 
 
 
