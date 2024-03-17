@@ -1,1 +1,1 @@
-# Here is all code the notes will be uploaded shorthly
+# Here is all the code,  notes will be uploaded shorthly
