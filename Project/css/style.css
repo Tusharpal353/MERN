@@ -87,6 +87,8 @@
     width: 100%;
 }
 
+
+
 .Service {
 
 
@@ -115,7 +117,7 @@
 .scroll-img {
 
     background-image: url("/Project/images/1236.jpg");
-    background-repeat: ;
+    /* background-repeat: ; */
     background-attachment: fixed;
 }
 
@@ -123,5 +125,21 @@
     padding-top: 20px;
     padding-bottom: 20px;
     height: auto;
+    width: auto;
+}
+
+
+/* chief img */
+.cheif-img {
+
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.cheif-card {
+
+    background-color: orange;
+    height: 400px;
     width: auto;
 }
