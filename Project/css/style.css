@@ -83,7 +83,7 @@
 /* cards */
 .imgc {
 
-    height: 180px;
+    height: auto;
     width: 100%;
 }
 
@@ -138,6 +138,21 @@
 }
 
 .cheif-card {
+
+    background-color: orange;
+    height: 400px;
+    width: auto;
+}
+
+.client-img {
+
+
+    height: 200px;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.client-card {
 
     background-color: orange;
     height: 400px;
