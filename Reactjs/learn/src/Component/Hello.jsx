@@ -1,9 +1,9 @@
 import React from 'react'
 
 
-function Hello() {
+function Hello(props,name) {
   return (
-    <><h1>Techlive Mohali</h1></>
+    <><h1>Techlive Mohali{props.name} {props.Email}</h1></>
   )
 }
 
