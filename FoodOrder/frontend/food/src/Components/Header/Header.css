@@ -1,0 +1,50 @@
+.header {
+    height: 41vw;
+
+    margin: 30px auto;
+    background: url('./Header1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.header-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 50%;
+    left: 6vw;
+
+}
+
+.header-content h1 {
+    font-weight: 500;
+    color: rgb(111, 52, 52);
+    font-size: max(8.5vm, 22px);
+
+}
+
+.header-content p {
+    color: rgb(62, 42, 42);
+    font-size: 1vw;
+}
+
+.header-content button {
+    border: solid 2px rgb(119, 59, 59);
+    color: rgb(93, 43, 43);
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: transparent;
+    border-radius: 50px;
+
+
+}
+
+.header-content button:hover {
+    background-color: green;
+    transition: 0.5;
+}

@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #000935; */
+    font-family: Helvetica, sans-serif;
+
+}
+
+.Navbar {
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar-Menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.Navbar li {
+    cursor: pointer;
+    color: rgb(124, 120, 120);
+
+}
+
+.logo {
+    width: 50px;
+}
+
+.Navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.Basket-icon {
+    position: relative;
+}
+
+.Basket-icon .Dot {
+    position: absolute;
+    border-radius: 5px;
+    background-color: tomato;
+    min-width: 12px;
+    min-height: 12px;
+    top: 3px;
+    right: 5px;
+
+}
+
+.Navbar button {
+    background: transparent;
+    font-size: 16px;
+    color: #795578;
+    border: solid 1px tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.Navbar button:hover {
+    background-color: tomato;
+}
+
+.btnSignin {}

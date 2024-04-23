@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    console.log(10 > 5);
+    console.log();
+
+    //if-condition
+    var x = 10;
+    if (x > 100) {
+      console.log("number is greater than 10");
+    }
+    console.log("good bye");
+
+    //if-else condition
+
+    if (x > 100) {
+      console.log("x is greater");
+    } else {
+      console.log("x is smaller");
+    }
+
+    //check if number is +ve or -ve
+    if (x > 0) {
+      console.log("nuber is +Ve");
+    } else {
+      console.log("NUmber is -vw");
+    }
+
+    //even odd
+    if (x % 2 == 0) {
+      console.log("Even");
+    } else {
+      console.log("odd");
+    }
+
+    //smaller of two number
+    var y = 20;
+    if (x < y) {
+      console.log(`smaller number is ${x}`);
+    } else {
+      console.log(y);
+    }
+
+    //discount
+    var unit = 20;
+    var qun = 100;
+    var amt = unit * qun;
+    console.log(`amount is ${amt}`);
+
+    if (amt >= 500) {
+      amt = (amt * 10) / 100;
+      console.log(amt);
+    }
+
+    //joining year
+    var jyear = 2020;
+    var curry = 2024;
+    var currs = 30000;
+    var servy = curry - jyear;
+    var nsal = (30000 * 20) / 100;
+
+    if (servy >= 2) {
+      currs = currs + nsal;
+      console.log("new salary" + currs);
+    }
+
+    //IF-ESLE-IF
+    var per = 70;
+    if (per >= 90) {
+      console.log("a");
+    } else if (per >= 80) {
+      console.log("b");
+    } else if (per >= 70) {
+      console.log("c");
+    } else {
+      console.log("f*ck");
+    }
+
+    //TERNARY OPERATOR
+    var n1 = 10;
+    var n2 = 20;
+    var result = n1 > n2 ? n1 : n2;
+    console.log(`max value =${result}`);
+  </script>
+</html>

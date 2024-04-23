@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Disable Button with Checkbox</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // When checkbox state changes
+        $("#myCheckbox").change(function () {
+          // Check if checkbox is checked
+          if ($(this).is(":checked")) {
+            // Enable the button
+            $("#myButton").removeAttr("disabled");
+          } else {
+            // Disable the button
+            $("#myButton").attr("disabled", "disabled");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Checkbox -->
+    <input type="checkbox" id="myCheckbox" /> Check me<br /><br />
+
+    <!-- Button -->
+    <button id="myButton" disabled>Submit</button>
+  </body>
+  <script src="index1.js"></script>
+</html>

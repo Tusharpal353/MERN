@@ -1,0 +1,39 @@
+table,
+th,
+tr,
+td {
+    border: solid 2px red;
+    border-collapse: collapse;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+    float: left;
+    float: right;
+}
+
+.box {
+    height: 200px;
+    border: solid 2px yellow;
+    background-image: linear-gradient(red, blue);
+    background-image: linear-gradient(to right, green, yellow);
+}
+
+
+.progress-bar {
+    width: 80%;
+    margin: auto;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.progress {
+
+    width: 80%;
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+}

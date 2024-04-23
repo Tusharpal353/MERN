@@ -1,0 +1,25 @@
+/* header */
+.aboutheader {
+    background-image: linear-gradient(rgba(15, 23, 43, .9), rgba(14, 23, 43, .9)), url(/Project/images/food3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* food img */
+.foodimg {}
+
+.foodimg img {
+    position: relative;
+    left: 100px;
+    border: solid 2px red;
+    height: 100px;
+    width: 100px;
+}
+
+
+.footerdetails {
+
+    background-color: #0F172B;
+}

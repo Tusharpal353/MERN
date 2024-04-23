@@ -1,0 +1,160 @@
+.foodbanner {
+    background-image: linear-gradient(rgba(15, 23, 43, .9), rgba(14, 23, 43, .9)), url(../images/delicious-food-black-board.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+:root {
+    --primary: orange;
+    --light: white;
+}
+
+.btn-primary {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--light);
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+
+.Service-item {
+    box-shadow: 0 0 45px rgba(14, 23, 43, .9);
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.Service-item:hover {
+    background-color: var(--primary)
+}
+
+/* About */
+.imgm {
+    height: 300px;
+    width: 300px;
+    /* text-align: center; */
+
+}
+
+/* .about {
+    position: relative;
+    /* border: solid 2px red; */
+/* top: -253px; 
+}
+
+*/
+.subhead h6 {
+    display: flex;
+    text-align: right;
+}
+
+
+.subhead h4 {
+    background-color: orange;
+    text-align: center;
+    border: solid 2px orange;
+    border-radius: 50%;
+    padding: 2px;
+    padding: 40px 20px;
+
+}
+
+.sub1 {
+    border-left: solid 5px blue;
+}
+
+.sub2 {
+    border-left: solid 5px blue;
+}
+
+@media (max-width:1000px) {
+    .imgm {
+        border: solid 10px rebeccapurple;
+        width: 100px;
+    }
+
+}
+
+
+
+/* cards */
+.imgc {
+
+    height: auto;
+    width: 100%;
+}
+
+
+
+.Service {
+
+
+    box-shadow: 2px 2px 10px #888888;
+    border-radius: 10px;
+
+}
+
+.cardimg {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.btn {
+    border-color: orange;
+}
+
+
+
+/* FORM */
+.form1 {
+    border: solid 2px red;
+}
+
+.scroll-img {
+
+    background-image: url("../images/1236.jpg");
+    /* background-repeat: ; */
+    background-attachment: fixed;
+}
+
+.imgchief {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    width: auto;
+}
+
+
+/* chief img */
+.cheif-img {
+
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.cheif-card {
+
+    background-color: orange;
+    height: 400px;
+    width: auto;
+}
+
+.client-img {
+
+
+    height: 200px;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.client-card {
+
+    background-color: orange;
+    height: 400px;
+    width: auto;
+}

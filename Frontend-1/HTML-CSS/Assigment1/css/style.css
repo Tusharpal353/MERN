@@ -1,0 +1,32 @@
+table,
+tbody,
+th,
+tr,
+td,
+thead {
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+table {
+    height: 50%;
+    width: 50%;
+}
+
+td {
+    text-align: center;
+
+
+}
+
+.pic {
+    height: 200px;
+    width: 100px;
+
+
+}
+
+.pic:hover {
+    cursor: pointer;
+
+}

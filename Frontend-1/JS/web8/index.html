@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <input type="text" id="n1" placeholder="First No" />
+      </div>
+      <div>
+        <input type="text" id="n2" placeholder="Sec No" />
+      </div>
+      <div>
+        <button onclick="sum()" type="button">+</button>
+        <button onclick="sub()" type="button">-</button>
+        <button onclick="mul()" type="button">*</button>
+        <button onclick="div()" type="button">/</button>
+        <button onclick="mod()" type="button">%</button>
+      </div>
+    </form>
+    <div id="result"></div>
+  </body>
+  <script src="script.js"></script>
+  <!-- <script>
+    function sum() {
+      var n1 = document.getElementById("n1").value; 
+      console.log(n1);
+    }
+  </script> -->
+</html>
